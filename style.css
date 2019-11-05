@@ -44,7 +44,7 @@ This theme, like WordPress, is licensed under the GPL.
 }
 
 .bg-color1 {
-  background-color: #03a9f4;
+  background-color: #00a972;
 }
 
 .bg-color2 {
@@ -305,7 +305,7 @@ i.fa.icon.bordered.color1, i.fa.icon.color1.card[class*="bottom-border-"] {
 }
 
 i.fa.icon.reverse.color1 {
-  background-color: #03a9f4;
+  background-color: #ffffff;
 }
 
 button.color1,
@@ -629,7 +629,7 @@ body,
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "benton-sans", sans-serif;
   color: #8E9DAE;
   background-color: transparent;
 }
@@ -643,7 +643,7 @@ a:hover {
 }
 
 h1.title, h1, h2, h3, h4, h5, .comment-author .fn, h6 {
-  font-family: "Muli", sans-serif;
+  font-family: "benton-sans-wide", sans-serif;
   font-weight: 600;
   color: #3C424F;
   text-rendering: optimizeLegibility;
@@ -678,7 +678,9 @@ h2,
 .h2 {
   font-size: 2.5rem;
   line-height: 3rem;
-  font-weight: 600;
+  font-family: "benton-sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
 }
 
 h3,
@@ -689,7 +691,7 @@ h3,
 
 h4,
 .h4 {
-  font-family: "Open Sans", sans-serif;
+  font-family: benton-sans, sans-serif;
   font-weight: 600;
   font-size: 1.1rem;
   line-height: 1.75rem;
@@ -1161,6 +1163,10 @@ body #page p, body #page a {
   line-height: 2rem;
   color: #3C424F;
   font-weight: 300;
+}
+
+.lead b font {
+  color: #3C424F;
 }
 
 /*
@@ -4676,7 +4682,7 @@ a img.aligncenter {
   HEADER
 */
 .header-top-bar {
-  background-color: #222222;
+  background-color: #ffffff;
   display: none;
   padding-left: 5%;
   padding-right: 5%;
@@ -4734,26 +4740,26 @@ a img.aligncenter {
   display: inline-block;
   font-size: 22px;
   padding: 2px 10px;
-  color: #ffffff;
+  color: #b2b3b6;
   max-height: 40px;
   float: left;
 }
 
 .top-bar-social-icons a:hover {
-  color: white;
+  color: #b2b3b6;
 }
 
 .top-bar-field {
   float: left;
   font-size: 12px;
   text-align: left;
-  color: #ffffff;
+  color: #b2b3b6;
   padding: 11px 15px;
 }
 
 .top-bar-field i.fa {
   font-size: 18px;
-  color: #999;
+  color: #b2b3b6;
   margin-right: 10px;
   float: left;
 }
@@ -4765,11 +4771,11 @@ a img.aligncenter {
 }
 
 .top-bar-field a {
-  color: #ffffff;
+  color: #b2b3b6;
 }
 
 .top-bar-field a:hover {
-  color: white;
+  color: #b2b3b6;
 }
 
 .top-bar-menu {
@@ -5063,13 +5069,13 @@ ul.dropdown-menu > li {
 
 ul.dropdown-menu.simple-menu-items > .current_page_item > a,
 ul.dropdown-menu.simple-menu-items > .current-menu-item > a {
-  color: #03a9f4;
+  color: #ffffff;
 }
 
 ul.dropdown-menu.active-line-bottom > .current_page_item > a,
 ul.dropdown-menu.active-line-bottom > .current-menu-item > a, ul.dropdown-menu.default > .current_page_item > a,
 ul.dropdown-menu.default > .current-menu-item > a {
-  border-bottom: 3px solid #03a9f4;
+  border-bottom: 3px solid #ffffff;
 }
 
 ul.dropdown-menu.active-line-bottom > li:not(.current-menu-item):not(.current_page_item):hover > a,
@@ -5085,7 +5091,7 @@ ul.dropdown-menu.active-line-top > li > a {
 ul.dropdown-menu.active-line-top > .current_page_item > a,
 ul.dropdown-menu.active-line-top > .current-menu-item > a {
   margin-top: 0px;
-  border-top: 3px solid #03a9f4;
+  border-top: 3px solid #ffffff;
 }
 
 ul.dropdown-menu.active-line-top > li:not(.current-menu-item):not(.current_page_item):hover > a,
@@ -5195,7 +5201,7 @@ ul.dropdown-menu.active-line-top-bottom > li:not(.current-menu-item):not(.curren
 .fixto-fixed ul.dropdown-menu.active-line-bottom > .current-menu-item > a,
 .fixto-fixed ul.dropdown-menu.default > .current_page_item > a,
 .fixto-fixed ul.dropdown-menu.default > .current-menu-item > a {
-  border-bottom: 3px solid #03a9f4;
+  border-bottom: 3px solid #0090a1;
 }
 
 .coloured-nav ul.dropdown-menu.active-line-bottom > li:not(.current-menu-item):not(.current_page_item):hover > a,
@@ -5212,7 +5218,7 @@ ul.dropdown-menu.active-line-top-bottom > li:not(.current-menu-item):not(.curren
 .coloured-nav ul.dropdown-menu.active-line-top > .current-menu-item > a,
 .fixto-fixed ul.dropdown-menu.active-line-top > .current_page_item > a,
 .fixto-fixed ul.dropdown-menu.active-line-top > .current-menu-item > a {
-  border-top: 3px solid #03a9f4;
+  border-top: 3px solid #0090a1;
 }
 
 .coloured-nav ul.dropdown-menu.active-line-top > li:not(.current-menu-item):not(.current_page_item):hover > a,
@@ -5500,8 +5506,9 @@ a.text-logo, a.text-logo:visited, a.text-logo:hover {
 
 h1.hero-title {
   color: #FFFFFF;
+  text-transform: uppercase;
   margin-bottom: 1.25rem;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.14;
   letter-spacing: 0.9px;
@@ -5610,7 +5617,7 @@ a.hp-header-primary-button.outline:disabled, a.hp-header-primary-button.outline.
 .header-homepage-arrow-c {
   position: absolute;
   text-align: center;
-  bottom: 0px;
+  bottom: 3rem;
   left: 0px;
   right: 0px;
   z-index: 500;
@@ -7656,7 +7663,7 @@ blockquote:after {
 }
 
 .footer-contact-boxes .footer-content {
-  background-color: #222222;
+  background-color: #0090a1;
 }
 
 .footer-contact-boxes table caption {
@@ -7699,7 +7706,11 @@ blockquote:after {
 .footer-contact-boxes .footer-bg-accent {
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: #FF9800;
+  background-color: #ffffff;
+}
+
+.footer-bg-accent p {
+  color: #0090a1;
 }
 
 .footer-contact-boxes .footer-social-icons {
@@ -8747,6 +8758,13 @@ i.fa.icon.reverse {
 
 i.fa.icon.reverse:before {
   display: block;
+}
+
+i.fa.icon.reverse.color1:before {
+  display: block;
+  background: linear-gradient(to right, #00b14c , #0090a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 i.fa.icon.reverse.small, i.fa.icon.reverse.comment-meta, i.fa.icon.reverse.comment-reply-link {
