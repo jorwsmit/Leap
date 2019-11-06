@@ -348,7 +348,7 @@ i.fa.icon.bordered.color2, i.fa.icon.color2.card[class*="bottom-border-"] {
 }
 
 i.fa.icon.reverse.color2 {
-  background-color: #FF9800;
+  background: linear-gradient(#00b14c , #0090a1);
 }
 
 button.color2,
@@ -700,7 +700,7 @@ h4,
 
 h5, .comment-author .fn,
 .h5 {
-  font-size: "Open Sans", sans-serif;
+  font-family: benton-sans-wide, sans-serif;
   line-height: 1.5rem;
   font-weight: 800;
   letter-spacing: 0.14rem;
@@ -1576,6 +1576,8 @@ input[type="submit"] {
 }
 
 .button.color2 {
+  font-family: benton-sans-wide, sans-serif;
+  font-weight: 800;
   color: #ffffff;
   background-color: #FF9800;
   border-color: #FF9800;
@@ -5504,6 +5506,11 @@ a.text-logo, a.text-logo:visited, a.text-logo:hover {
   z-index: 0;
 }
 
+.header-homepage .background-overlay{
+	background: linear-gradient(to right, #00b14c , #0090a1);
+	opacity:0.9;
+}
+
 h1.hero-title {
   color: #FFFFFF;
   text-transform: uppercase;
@@ -7720,11 +7727,11 @@ blockquote:after {
 .footer-contact-boxes .col-sm-3 {
   padding-top: 20px;
   padding-bottom: 20px;
-  border-left: 1px solid rgba(128, 128, 128, 0.2);
+  border-left: 1px solid #ffffff;
 }
 
 .footer-contact-boxes .col-sm-3:last-child {
-  border-right: 1px solid rgba(128, 128, 128, 0.2);
+  border-right: 1px solid #ffffff;
 }
 
 @media (min-width: 768px) {
@@ -7794,7 +7801,7 @@ blockquote:after {
 .footer-content-lists .widgets-row > * {
   padding-top: 40px;
   padding-bottom: 40px;
-  border-left: 1px solid rgba(128, 128, 128, 0.2);
+  border-left: 1px solid #ffffff;
 }
 
 .footer-content-lists .widgets-row {

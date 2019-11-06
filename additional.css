@@ -1,0 +1,182 @@
+i.fa.icon.reverse.color1 {
+  background-color: #ffffff;
+}
+
+body{
+	font-family: "benton-sans", sans-serif;
+}
+
+h1.title, h1, h2, h3, h4, h5, .comment-author .fn, h6 {
+  font-family: "benton-sans-wide", sans-serif;
+}
+
+h2,
+.h2 {
+  font-family: "benton-sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+h3,
+.h3 {
+  font-size: 1rem;
+	color: #00b14c;
+	letter-spacing: 0.2rem;
+}
+
+h4,
+.h4 {
+  font-family: benton-sans, sans-serif;
+  font-weight: 600;
+}
+
+h5, .comment-author .fn,
+.h5 {
+  font-family: benton-sans-wide, sans-serif;
+	letter-spacing: 0.12rem;
+}
+
+.header-top-bar {
+  background-color: #ffffff;
+}
+
+.top-bar-social-icons a, .top-bar-social-icons a:hover, .top-bar-field, .top-bar-field i.fa, .top-bar-field a, .top-bar-field a:hover {
+  color: #b2b3b6;
+}
+
+ul.dropdown-menu.simple-menu-items > .current_page_item > a,
+ul.dropdown-menu.simple-menu-items > .current-menu-item > a {
+  color: #ffffff;
+}
+
+ul.dropdown-menu.active-line-bottom > .current_page_item > a,
+ul.dropdown-menu.active-line-bottom > .current-menu-item > a, ul.dropdown-menu.default > .current_page_item > a,
+ul.dropdown-menu.default > .current-menu-item > a, ul.dropdown-menu.active-line-top > .current_page_item > a,
+ul.dropdown-menu.active-line-top > .current-menu-item > a {
+  border-bottom: 3px solid #ffffff;
+}
+
+.coloured-nav ul.dropdown-menu.active-line-bottom > .current_page_item > a,
+.coloured-nav ul.dropdown-menu.active-line-bottom > .current-menu-item > a, .coloured-nav ul.dropdown-menu.default > .current_page_item > a,
+.coloured-nav ul.dropdown-menu.default > .current-menu-item > a,
+.fixto-fixed ul.dropdown-menu.active-line-bottom > .current_page_item > a,
+.fixto-fixed ul.dropdown-menu.active-line-bottom > .current-menu-item > a,
+.fixto-fixed ul.dropdown-menu.default > .current_page_item > a,
+.fixto-fixed ul.dropdown-menu.default > .current-menu-item > a, .coloured-nav ul.dropdown-menu.active-line-top > .current_page_item > a,
+.coloured-nav ul.dropdown-menu.active-line-top > .current-menu-item > a,
+.fixto-fixed ul.dropdown-menu.active-line-top > .current_page_item > a,
+.fixto-fixed ul.dropdown-menu.active-line-top > .current-menu-item > a {
+  border-bottom: 3px solid #0090a1;
+}
+
+h1.hero-title {
+  text-transform: uppercase;
+	font-size: 3rem;
+}
+
+.header-homepage-arrow-c {
+  bottom: 3rem;
+}
+
+i.fa.icon.reverse.color1:before {
+  display: block;
+  background: linear-gradient(to right, #00b14c , #0090a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+i.fa.icon.reverse.color2{
+	background: linear-gradient(#00b14c , #0090a1);
+}
+
+.bg-color1 {
+  background-color: #00a972;
+}
+
+.button.color2 {
+	border-radius: 0px;
+	font-family: benton-sans-wide, sans-serif;
+  font-weight: 700;
+	color: #0090a1;
+	background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.button.color2:hover {
+	color: #0090a1;
+  background-color: #ededed;
+  border-color: #ededed;
+}
+
+.shadow-large {
+  box-shadow: none;
+}
+
+.footer-contact-boxes .footer-content {
+  background-color: #0090a1;
+}
+.footer-contact-boxes .footer-bg-accent {
+	background-color: #ffffff;
+}
+.footer-bg-accent p {
+  color: #0090a1;
+}
+
+.footer-contact-boxes .col-sm-3, .footer-contact-boxes .col-sm-3:last-child, .footer-content-lists .widgets-row > *{
+  border-left: 1px solid #ffffff;
+}
+
+.header-homepage .background-overlay, .header .background-overlay{
+	background: linear-gradient(to right, #00b14c , #0090a1);
+	opacity:0.9;
+}
+
+.type-page h2{
+	font-family: benton-sans-wide, sans-serif;
+  font-weight: 600;
+	text-transform: uppercase;
+	color: #00b14c;
+	font-size: 1.5rem;
+	letter-spacing: 0.14rem;
+}
+
+.type-page h4{
+	font-family: benton-sans-wide, sans-serif;
+  font-weight: 600;
+	text-transform: uppercase;
+	color: #00b14c;
+	font-size: 1.5rem;
+	letter-spacing: 0.14rem;
+}
+
+.type-page p{
+	color: #000000;
+	line-height: 2rem;
+}
+
+.type-page ol li{
+	color: #000000;
+	font-weight: 400;
+	line-height: 2rem;
+}
+
+.type-page strong{
+	font-family: benton-sans, sans-serif;
+  font-weight: 600;
+}
+
+a {
+  color: #0090a1;
+}
+
+a:hover {
+  color: #016470;
+}
+
+.wp-block-file .wp-block-file__button{
+	font-family: benton-sans-wide, sans-serif;
+  font-weight: 700;
+	border-radius: 0px;
+	background: #0090a1;
+	text-transform: uppercase;
+}
